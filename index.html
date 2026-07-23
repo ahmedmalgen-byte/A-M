@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!</title>
+    <!-- استدعاء خطوط Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- مكتبة Supabase للربط التلقائي بقاعدة البيانات -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- ربط ملف CSS الخارجي -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main class="card-container">
+      <!-- Section 1: Hero Greetings -->
+      <section class="hero-section">
+        <div class="floating-hearts">❤️<br />❤️ ❤️</div>
+        <h1 class="main-title">Happy<br />Birthday,<br />Handsome!</h1>
+        <p class="sub-text">
+          To my favorite person, my best friend, and the love of my life. Today
+          is all about you.
+        </p>
+      </section>
+
+      <!-- Down Arrow Indicator -->
+      <div class="arrow-section">↓</div>
+
+      <!-- Section 2: Quote -->
+      <section class="quote-section">
+        <p class="quote-text">
+          "In all the world, there is no heart for me like yours.<br />
+          In all the world, there is no love for you like mine."
+        </p>
+        <span class="quote-author">— MAYA</span>
+      </section>
+
+      <!-- Section 3: Birthday Letter -->
+      <section class="letter-section">
+        <h2 class="section-title">To My<br />Everything...</h2>
+        <div class="letter-body">
+          <p>
+            Every day with you feels like a gift, but today is extra special
+            because it's the day the world got a little bit brighter when you
+            were born.
+          </p>
+          <p>
+            Thank you for your endless patience, your beautiful smile, and for
+            making me feel like the luckiest girl alive. I love watching you
+            chase your dreams, and I promise to be by your side cheering you on
+            forever.
+          </p>
+          <p>
+            Here's to making countless more memories, laughing until our
+            stomachs hurt, and loving each other more with every passing day.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 4: Photo Gallery -->
+      <section class="gallery-section">
+        <h2 class="gallery-title">Our Beautiful<br />Moments</h2>
+
+        <div id="gallery-container">
+          <!-- يتم ملؤه أوتوماتيكياً من قاعدة البيانات -->
+        </div>
+      </section>
+
+      <!-- Section 5: Footer Banner -->
+      <section class="footer-banner">
+        <p class="footer-text">I love you endlessly. ❤️</p>
+      </section>
+    </main>
+
+    <!-- ربط ملف الـ JavaScript الخارجي -->
+    <script src="main.js"></script>
+  </body>
+</html>
