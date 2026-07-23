@@ -1,7 +1,6 @@
 // 1. بيانات الاتصال (ضع الـ anon key الذي يبدأ بـ eyJhbGci... هنا)
-const SUPABASE_URL = "https://hpoihcnvjaqnkgtvryam.supabase.co";
-const SUPABASE_ANON_KEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhwb2loY252amFxbmtndHZyeWFtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ3NTM3OTUsImV4cCI6MjEwMDMyOTc5NX0.dxyIR5xPaZsUysn0FEVpo6gIcOooQ--p_iPT9oe6Y2E";
+const SUPABASE_URL = "https://euknovxrgaiqwpnbbskf.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1a25vdnhyZ2FpcXdwbmJic2tmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ4MDU2MjYsImV4cCI6MjEwMDM4MTYyNn0.7rypcPrT4Xx4ORyw-uf4620EmJqkm6of-Y3eQdlE18Q;
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
